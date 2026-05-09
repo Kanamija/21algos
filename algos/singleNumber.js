@@ -56,7 +56,6 @@ function singleNumber ( arr ) {
         } else {
             obj[arr[i]]++;
         }
-
     }
     const key = Object.keys(obj).find(k => obj[k] === 1);
     return key;
